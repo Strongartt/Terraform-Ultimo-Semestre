@@ -68,7 +68,7 @@ resource "azurerm_network_security_group" "techustart" {
   location            = azurerm_resource_group.techustart.location
 
   security_rule {
-    name                       = "Allow-HTTP-Inbound"
+    name                       = "allow_http_inbound"
     priority                   = 100
     direction                  = "Inbound"
     access                     = "Allow"
