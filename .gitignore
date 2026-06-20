@@ -1,0 +1,28 @@
+# Directorio de trabajo de Terraform
+.terraform/
+
+# Archivos de estado
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# Variables locales; el ejemplo sí debe versionarse
+*.tfvars
+!terraform.tfvars.example
+
+# Planes y archivos de fallo
+tfplan
+*.tfplan
+crash.log
+crash.*.log
+
+# Logs
+*.log
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# .terraform.lock.hcl se versiona intencionalmente.

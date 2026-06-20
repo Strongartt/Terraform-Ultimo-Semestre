@@ -1,0 +1,10 @@
+# Copie este archivo como terraform.tfvars y ajuste los valores necesarios.
+azure_region        = "eastus"
+tamano_vm           = "Standard_B1s"
+admin_username      = "azureadmin"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+project_name          = "techustart"
+environment           = "dev"
+vnet_address_space    = "10.0.0.0/16"
+subnet_address_prefix = "10.0.1.0/24"
